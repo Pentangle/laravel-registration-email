@@ -1,0 +1,35 @@
+{
+    "name": "pentangle/laravel-registration-email",
+    "description": "A Composer package for laravel that sends users a set password link upon registration",
+    "keywords": [
+        "auth",
+        "registration",
+        "email",
+        "laravel"
+    ],
+    "homepage": "https://pentangletechnology.co.uk",
+    "type": "project",
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.4",
+        "phpunit/phpunit": "^9.4"
+    },
+    "authors": [
+        {
+            "name": "sean.poynter-smith",
+            "email": "sean.poynter-smith@pentangletechnology.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pentangle\\laravel-registration-email\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pentangle\\laravel-registration-email\\tests\\": "tests/"
+        }
+    }
+}
