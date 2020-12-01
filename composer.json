@@ -8,7 +8,7 @@
         "laravel"
     ],
     "homepage": "https://pentangletechnology.co.uk",
-    "type": "project",
+    "type": "plugin",
     "require": {
         "php": "^7.4"
     },
